@@ -18,7 +18,7 @@ def clickme():
 app.route('/flash')
 def flash():
   message = request.args.get("msg")
-  return render_template("flash.html", ,msg=message)    
+  return render_template("flash.html",msg=message)    
 
 if __name__ == "__main__":
     app.run(debug=True,host='0.0.0.0')
