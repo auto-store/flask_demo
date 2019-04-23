@@ -14,5 +14,11 @@ def clickme():
 def flash(message):
   return render_template('flash.html')
 
+@app.route('/my-link/')
+def my_link():
+  print 'I got clicked!'
+
+  return 'Click.'
+
 if __name__ == "__main__":
     app.run(debug=True,host='0.0.0.0')

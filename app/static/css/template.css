@@ -12,7 +12,7 @@ body {
     height: 35px;
     width: 100%;
     opacity: .9;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   header h1.logo {
     margin: 0;
@@ -21,10 +21,7 @@ body {
     text-transform: uppercase;
     float: left;
   }
-  header h1.logo:hover {
-    color: rgb(66, 12, 12);
-    text-decoration: none;
-  }
+  
   /*
    * Centering the body content
    */
