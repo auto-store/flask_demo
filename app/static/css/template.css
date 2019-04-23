@@ -75,20 +75,14 @@ body {
     text-decoration: none;
   }
 
-  .btn {
+  .button {
+    background-color: #4CAF50;
     border: none;
-    background-color: inherit;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
     display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
   }
-  
-  /* On mouse-over */
-  .btn:hover {background: #eee;}
-  
-  .success {color: green;}
-  .info {color: dodgerblue;}
-  .warning {color: orange;}
-  .danger {color: red;}
-  .default {color: black;}
