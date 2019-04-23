@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #444;
+    color: rgb(56, 17, 129);
   }
   /*
    * Formatting the header area
@@ -22,7 +22,7 @@ body {
     float: left;
   }
   header h1.logo:hover {
-    color: #fff;
+    color: rgb(66, 12, 12);
     text-decoration: none;
   }
   /*

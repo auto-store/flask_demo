@@ -7,7 +7,7 @@ def home():
     return render_template("home.html")
 
 @app.route("/clickme")
-def about():
+def clickme():
     return render_template("clickme.html")
 
 if __name__ == "__main__":
