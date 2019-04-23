@@ -14,14 +14,14 @@ def clickme():
 def flash(message):
   return render_template('flash.html')
 
-@app.route('/my-link/')
+@app.route('/mylink/')
 def my_link():
   print 'I got clicked!'
 
   return 'Click.'
 
-@app.route('/click-function/')
-def my_link():
+@app.route('/clickfunction/')
+def click_function():
   print 'I clicked!'
 
   return 'Click-function.'
