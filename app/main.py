@@ -1,10 +1,15 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, flash
 
 app = Flask(__name__)
 
 @app.route("/")
 def home():
     return render_template("home.html")
+    
+@app.route('/background_process_test')
+def background_process_test():
+    print "Hello"
+    return "nothing"
 
 @app.route("/clickme")
 def clickme():
