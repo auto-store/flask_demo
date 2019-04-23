@@ -15,7 +15,7 @@ def background_process_test():
 def clickme():
     return render_template("clickme.html")
 
-app.route('/flash')
+@app.route('/flash')
 def flash():
   message = request.args.get("msg")
   return render_template("flash.html",msg=message)    
