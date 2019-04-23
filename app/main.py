@@ -20,11 +20,5 @@ def my_link():
 
   return 'Click.'
 
-@app.route('/clickfunction/')
-def click_function():
-  print 'I clicked!'
-
-  return 'Click-function.'
-
 if __name__ == "__main__":
     app.run(debug=True,host='0.0.0.0')
